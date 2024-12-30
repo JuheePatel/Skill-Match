@@ -235,7 +235,7 @@ const SubmitSkill = () => {
   }
 
   if (questions.length === 0) {
-    return <div style={{ marginLeft: "50px", color: "#074384", fontWeight: "bold", marginTop: "10px"}}>Loading questions...</div>;
+    return <div style={{ marginLeft: "50px", color: "#074384", fontWeight: "bold", marginTop: "10px", textAlign: "center"}}>Loading questions...</div>;
   }
 
   return (
